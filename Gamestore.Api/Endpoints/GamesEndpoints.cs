@@ -32,7 +32,7 @@ public static class GamesEndpoints
 
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
-        var group = app.MapGroup("games").WithParameterValidation();
+        var group = app.MapGroup("games");
 
         // GET /games
         group.MapGet("/", () => games);
