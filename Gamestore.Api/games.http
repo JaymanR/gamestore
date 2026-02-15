@@ -1,0 +1,29 @@
+GET http://localhost:5130/games
+
+###
+GET http://localhost:5130/games/2
+
+###
+POST http://localhost:5130/games
+Content-Type: application/json
+
+{
+    "name": "Minecraft",
+    "genre": "Sandbox",
+    "price": 19.99,
+    "releaseDate": "2011-11-18"
+}
+
+###
+PUT http://localhost:5130/games/2
+Content-Type: application/json
+
+{
+    "name": "Dune: Awakening",
+    "genre": "Open World Survival",
+    "price": 49.99,
+    "releaseDate": "2025-06-10"
+}
+
+###
+DELETE http://localhost:5130/games/1
