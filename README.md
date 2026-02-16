@@ -1,2 +1,2 @@
 # gamestore
-an asp.net project with react frontend
+an asp.net minimal api project. 
