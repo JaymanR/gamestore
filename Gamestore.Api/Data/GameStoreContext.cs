@@ -1,6 +1,5 @@
 using Gamestore.Api.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Net.Http.Headers;
 
 namespace Gamestore.Api.Data;
 
